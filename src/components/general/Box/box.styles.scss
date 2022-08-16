@@ -1,0 +1,8 @@
+@import "../../../assets/styles/variables";
+
+.box {
+  box-shadow: 0 0 48px rgba($color: $dark, $alpha: 0.14);
+  border-radius: 30px;
+  padding: 48px;
+  width: 100%;
+}

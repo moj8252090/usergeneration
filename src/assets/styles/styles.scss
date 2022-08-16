@@ -1,0 +1,36 @@
+@import "./helpers";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+}
+
+.content-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-box {
+  max-width: 632px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.Snackbar_snackbar-wrapper__ocbPJ.Snackbar_snackbar-wrapper-top-center__1Gbfi {
+  top: 0 !important;
+  margin: 0;
+  .snackbar-inner {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 12px;
+    }
+  }
+}

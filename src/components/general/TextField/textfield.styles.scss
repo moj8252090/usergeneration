@@ -1,0 +1,33 @@
+@import "../../../assets/styles/variables";
+
+.text-field {
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: $inputBg;
+  color: $dark;
+  border: none;
+  font-size: 16px;
+  font-weight: 16px;
+  outline: none;
+  padding: 21px 24px;
+}
+
+.lined-text-field {
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid $green;
+  padding: 21px 24px;
+  width: 100%;
+  outline: none;
+  &.error {
+    border-color: $danger;
+  }
+}
+
+.error {
+  color: $danger;
+}

@@ -1,0 +1,23 @@
+@import "../../../assets/styles/variables";
+
+.button {
+  padding: 21px 24px;
+  border-radius: 15px;
+  background: $primaryButton;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: $white;
+  width: 100%;
+  &.disabled {
+    background: $disabledButton !important;
+    border: none !important;
+    color: $white !important;
+  }
+  &.outlined {
+    color: $green;
+    background: transparent;
+    border: 2px solid $green;
+  }
+}

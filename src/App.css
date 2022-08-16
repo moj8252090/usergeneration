@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  box-shadow: 0 0 48px #22222214;
+  border-radius: 30px;
+  padding: 20px;
+  width: 100%;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 10px solid #2222221a;
+  max-width: 260px;
+  margin: auto;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.text-field {
+  width: 100%;
+  border-radius: 15px;
+  background-color: #f1f2f6;
+  color: #222222;
+  border: none;
+  font-size: 16px;
+  font-weight: 16px;
+  outline: none;
+  padding: 21px 24px;
+}
+
+.button {
+  padding: 21px 24px;
+  border-radius: 15px;
+  background: transparent linear-gradient(236deg, #b9b9b9 0, #9f9f9f 100%) 0 0
+    no-repeat;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 100%;
+}
+
+.lined-text-field{
+  background-color: red;
+}
